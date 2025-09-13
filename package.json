@@ -1,0 +1,58 @@
+{
+  "name": "portfolioo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@types/three": "^0.168.0",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.13.0",
+    "leva": "^0.9.36",
+    "maath": "^0.10.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-globe.gl": "^2.36.0",
+    "react-responsive": "^10.0.1",
+    "three": "^0.167.1",
+    "three-stdlib": "^2.36.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@react-three/eslint-plugin": "^0.1.2",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.35.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.1.5"
+  },
+  "description": "This is my personal portfolio website built with **React**.  \r It showcases my projects, skills, and contact information.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu-Gupta0007/portfolioo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himanshu-Gupta0007/portfolioo/issues"
+  },
+  "homepage": "https://github.com/Himanshu-Gupta0007/portfolioo#readme"
+}
