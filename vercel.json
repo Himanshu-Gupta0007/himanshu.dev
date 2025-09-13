@@ -2,15 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "vite.config.*",
-      "use": "@vercel/static-build"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
   ],
-  "scripts": {
-    "build": "vite build"
-  },
   "env": {
     "NODE_VERSION": "18"
-  },
-  "outputDirectory": "dist"
+  }
 }
