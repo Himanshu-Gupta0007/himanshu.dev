@@ -21,40 +21,45 @@ export const navLinks = [
   },
 ];
 
-// export const clientReviews = [
-//   {
-//     id: 1,
-//     name: 'Emily Johnson',
-//     position: 'Marketing Director at GreenLeaf',
-//     img: 'assets/review1.png',
-//     review:
-//       'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-//   },
-//   {
-//     id: 2,
-//     name: 'Mark Rogers',
-//     position: 'Founder of TechGear Shop',
-//     img: 'assets/review2.png',
-//     review:
-//       'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-//   },
-//   {
-//     id: 3,
-//     name: 'John Dohsas',
-//     position: 'Project Manager at UrbanTech ',
-//     img: 'assets/review3.png',
-//     review:
-//       'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-//   },
-//   {
-//     id: 4,
-//     name: 'Ether Smith',
-//     position: 'CEO of BrightStar Enterprises',
-//     img: 'assets/review4.png',
-//     review:
-//       'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-//   },
-// ];
+// src/constants/index.js
+// src/constants/index.js
+export const clientReviews = [
+  {
+    id: 1,
+    name: 'Nike Clone',
+    position: 'E-commerce Project',
+    img: '/assets/nike.png',
+    review: 'A fully responsive Nike-style e-commerce website with product listing, image slider, color and size selection, and checkout popup.',
+    link: 'https://himanshu-gupta0007.github.io/NIKE-store-USEING-HTML-CSS-JS/', // click pe open hoga
+  },
+  {
+    id: 2,
+    name: 'Delhi Metro App',
+    position: 'Web Development Project',
+    img: '/assets/delhimetro.png',
+    review: 'A web app simulating Delhi Metro route planner with interactive map, stations info, and real-time updates on train schedules.',
+    link: '#'
+  },
+  {
+    id: 3,
+    name: 'Portfolio Website',
+    position: 'Personal Project',
+    img: '/assets/portfolio.png',
+    review: 'My personal portfolio website showcasing my projects, skills, and experience with smooth animations and responsive design.',
+    link: 'https://himu-portfolio.vercel.app/',
+  },
+  {
+    id: 4,
+    name: 'Todo App',
+    position: 'React Project',
+    img: '/assets/todo.png',
+    review: 'A React-based Todo app with create, edit, delete, and store functionality using Context API for state management.',
+    link: '#', // optional
+  },
+];
+
+
+
 
 // export const myProjects = [
 //   {
