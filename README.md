@@ -56,4 +56,8 @@ Vercel
 
 Netlify
 
+<<<<<<< HEAD
 GitHub Pages
+=======
+GitHub Pages
+>>>>>>> d1852391ab26cd45ea20ed1dccab6812d5d11ce7

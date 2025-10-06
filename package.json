@@ -42,5 +42,21 @@
     "prettier": "^3.6.2",
     "tailwindcss": "^3.4.17",
     "vite": "^7.1.5"
+<<<<<<< HEAD
   }
+=======
+  },
+  "description": "This is my personal portfolio website built with **React**.  \r It showcases my projects, skills, and contact information.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu-Gupta0007/portfolioo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himanshu-Gupta0007/portfolioo/issues"
+  },
+  "homepage": "https://github.com/Himanshu-Gupta0007/portfolioo#readme"
+>>>>>>> d1852391ab26cd45ea20ed1dccab6812d5d11ce7
 }

@@ -4,10 +4,14 @@ import Footer from './sections/Footer.jsx';
 import Navbar from './sections/Navbar.jsx';
 import Contact from './sections/Contact.jsx';
 
+<<<<<<< HEAD
 
 
 import WorkExperience from './sections/Experience.jsx';
 import Clients from './sections/Clients.jsx';
+=======
+import WorkExperience from './sections/Experience.jsx';
+>>>>>>> d1852391ab26cd45ea20ed1dccab6812d5d11ce7
 
 const App = () => {
   return (
@@ -15,11 +19,14 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+<<<<<<< HEAD
      <Clients/>
 
       
 
       
+=======
+>>>>>>> d1852391ab26cd45ea20ed1dccab6812d5d11ce7
       
       <WorkExperience />
       <Contact />

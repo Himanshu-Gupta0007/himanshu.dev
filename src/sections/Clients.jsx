@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 // src/components/Clients.jsx
 import { clientReviews } from '../constants/index';
+=======
+import { clientReviews } from '../constants/index.js';
+>>>>>>> d1852391ab26cd45ea20ed1dccab6812d5d11ce7
 
 const Clients = () => {
   return (
     <section className="c-space my-20">
+<<<<<<< HEAD
       <h3 className="head-text text-white">My Projects</h3>
 
       <div className="client-container grid md:grid-cols-2 gap-6">
@@ -28,6 +33,33 @@ const Clients = () => {
               </div>
             </div>
           </a>
+=======
+      <h3 className="head-text">Hear from My Clients</h3>
+
+      <div className="client-container">
+        {clientReviews.map((item) => (
+          <div key={`review-${item.id}`} className="client-review">
+            <div>
+              <p className="text-white-800 font-light">{item.review}</p>
+
+              <div className="client-content">
+                <div className="flex gap-3">
+                  <img src={item.img} alt="reviewer" className="w-12 h-12 rounded-full" />
+                  <div className="flex flex-col">
+                    <p className="font-semibold text-white-800">{item.name}</p>
+                    <p className="text-white-500 md:text-base text-sm font-light">{item.position}</p>
+                  </div>
+                </div>
+
+                <div className="flex self-end items-center gap-2">
+                  {Array.from({ length: 5 }).map((_, index) => (
+                    <img key={index} src="/assets/star.png" alt="star" className="w-5 h-5" />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+>>>>>>> d1852391ab26cd45ea20ed1dccab6812d5d11ce7
         ))}
       </div>
     </section>
